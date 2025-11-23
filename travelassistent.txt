@@ -1,0 +1,23 @@
+travel-assistant/
+├─ README.md
+├─ requirements.txt
+├─ pyproject.toml
+├─ .env.example
+├─ src/
+│  ├─ app.py
+│  ├─ core/
+│  │  ├─ models.py
+│  │  ├─ utils.py
+│  ├─ services/
+│  │  ├─ weather.py
+│  │  ├─ geocode.py
+│  │  ├─ places.py
+│  ├─ agents/
+│  │  ├─ planner.py
+│  │  ├─ budget.py
+│  │  ├─ recommender.py
+│  ├─ outputs/
+│  │  └─ reports/
+├─ docker/
+│  ├─ Dockerfile
+│  ├─ docker-compose.yml
